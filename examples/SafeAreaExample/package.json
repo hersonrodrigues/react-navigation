@@ -6,10 +6,16 @@
     "react": "16.2.0",
     "react-native": "^0.52.0",
     "react-native-platform-touchable": "^1.1.1",
-    "react-navigation": "link:../.."
+    "react-navigation": "link:../..",
+    "snyk": "^1.88.0"
   },
   "name": "SafeAreaExample",
   "version": "0.0.0",
   "description": "Hello Expo!",
-  "author": null
+  "author": null,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
