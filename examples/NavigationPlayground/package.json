@@ -11,10 +11,10 @@
     "test": "flow"
   },
   "dependencies": {
-    "expo": "^27.0.0",
+    "expo": "^31.0.0",
     "invariant": "^2.2.4",
     "react": "16.3.1",
-    "react-native": "^0.55.0",
+    "react-native": "^0.69.12",
     "react-native-iphone-x-helper": "^1.0.2",
     "react-navigation": "link:../..",
     "react-navigation-header-buttons": "^0.0.4",
